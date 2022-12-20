@@ -1,0 +1,65 @@
+.heading{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text input{
+    height: 30px;
+    width: 290px;
+    border: 3px solid rgb(36, 36, 36);
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(83, 82, 82);
+}
+
+.text button{
+    width: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+#demo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    color: rgb(44, 43, 43);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#paragraph{
+    display: flex;
+    height: 30px;
+    width: 550px;
+    padding: 10px;
+    background-color: rgb(159, 165, 165);
+    border: 1px solid black;
+    justify-content: space-between;
+    
+}
+
+#remove{
+    align-self: flex-end;
+}
+
+#btnremove{
+    align-items: center;
+    background-color: rgb(231, 227, 227);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
